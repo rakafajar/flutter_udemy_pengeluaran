@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:udemy_pengeluaran/transcation.dart';
 
 void main() => runApp(MyApp());
@@ -11,9 +12,9 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final List<Transcation> transcation = [
     Transcation(
-        id: 't1', title: 'Baju Baru', amount: 99.00, date: DateTime.now()),
+        id: 't1', title: 'Baju Baru', amount: 100.511, date: DateTime.now()),
     Transcation(
-        id: 't2', title: 'Celana Baru', amount: 50.00, date: DateTime.now()),
+        id: 't2', title: 'Celana Baru', amount: 50.321, date: DateTime.now()),
   ];
 
   @override
@@ -52,7 +53,7 @@ class _MyAppState extends State<MyApp> {
                             ),
                           ),
                           child: Text(
-                            tx.amount.toString(),
+                            'Rp. ${tx.amount}',
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               color: Colors.purple,
@@ -68,13 +69,15 @@ class _MyAppState extends State<MyApp> {
                               tx.title,
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 16
+                                fontSize: 16,
                               ),
                             ),
                             Text(
-                              tx.date.toString(),
+                              // Class untuk membuat format data
+                              // menggunakan paket library
+                              DateFormat('dd MMMM y').format(tx.date),
                               style: TextStyle(
-                                color: Colors.grey
+                                color: Colors.grey,
                               ),
                             )
                           ],
