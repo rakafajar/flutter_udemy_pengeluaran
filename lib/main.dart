@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Column(
           // SpaceAround digunakan untuk membuat jarak antara 2 card
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          // mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Container(
@@ -35,6 +35,29 @@ class _MyAppState extends State<MyApp> {
                 color: Colors.blue,
                 child: Text("Chart"),
                 elevation: 10,
+              ),
+            ),
+            // TextField
+            Card(
+              elevation: 5,
+              child: Container(
+                padding: EdgeInsets.all(10),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: <Widget>[
+                    TextField(
+                      decoration: InputDecoration(labelText: 'Title'),
+                    ),
+                    TextField(
+                      decoration: InputDecoration(labelText: 'Amount'),
+                    ),
+                    FlatButton(
+                      onPressed: () {},
+                      textColor: Colors.purple,
+                      child: Text('Tambah Transaksi'),
+                    )
+                  ],
+                ),
               ),
             ),
             Column(
