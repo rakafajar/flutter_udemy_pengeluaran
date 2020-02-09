@@ -23,6 +23,21 @@ class _UserTransactionState extends State<UserTransaction> {
       date: DateTime.now(),
     ),
   ];
+
+  void _addNewTransaction(String txTittle, double txAmount) {
+    final newTtransaction = Transcation(
+      // DateTime pada id digunakan
+      //untuk kode unik sementara
+      id: DateTime.now().toString(),
+      title: txTittle,
+      amount: txAmount,
+      date: DateTime.now(),
+    );
+    setState(() {
+      _userTranscations.add(newTtransaction);
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -30,7 +45,7 @@ class _UserTransactionState extends State<UserTransaction> {
         // TextField
         NewTransaction(),
         // List Transaction
-        TransactionList(),
+        TransactionList(_userTranscations),
       ],
     );
   }
