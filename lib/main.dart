@@ -17,6 +17,13 @@ class _MyAppState extends State<MyApp> {
         id: 't2', title: 'Celana Baru', amount: 50.321, date: DateTime.now()),
   ];
 
+  // String title;
+  // String amount;
+
+  final titleController = new TextEditingController();
+  final amountController = new TextEditingController();
+
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -47,12 +54,24 @@ class _MyAppState extends State<MyApp> {
                   children: <Widget>[
                     TextField(
                       decoration: InputDecoration(labelText: 'Title'),
+                      controller: titleController,
+                      // onChanged: (value) {
+                      //   title = value;
+                      // },
                     ),
                     TextField(
                       decoration: InputDecoration(labelText: 'Amount'),
+                      keyboardType: TextInputType.number,
+                      controller: amountController,
+                      // onChanged: (value) {
+                      //   amount = value;
+                      // },
                     ),
                     FlatButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        print(titleController.text);
+                        print(amountController.text);
+                      },
                       textColor: Colors.purple,
                       child: Text('Tambah Transaksi'),
                     )
