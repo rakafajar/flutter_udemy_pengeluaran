@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Feb 09 22:25:41 ICT 2020
+#Tue Mar 10 13:16:11 ICT 2020
 4.path=flutter_assets/FontManifest.json
 8.set=ASSET
 6.path=flutter_assets/vm_snapshot_data
@@ -12,10 +12,8 @@
 4.set=ASSET
 5.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 7.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
-11.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 9.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 1.baseType=DIRECTORY
-11.set=NATIVE_RESOURCE
 0.set=NATIVE_RESOURCE
 6.baseType=DIRECTORY
 7.set=DEX
@@ -29,11 +27,9 @@
 5.path=flutter_assets/kernel_blob.bin
 0.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 7.path=classes.dex
-11.path=lib/armeabi-v7a/libflutter.so
 9.path=flutter_assets/fonts/MaterialIcons-Regular.ttf
 6.set=ASSET
 2.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-11.baseType=DIRECTORY
 4.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 3.baseType=DIRECTORY
 6.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
@@ -42,7 +38,7 @@
 2.set=ASSET
 8.baseType=DIRECTORY
 9.set=ASSET
-count=12
+count=11
 4.baseType=DIRECTORY
 5.set=ASSET
 9.baseType=DIRECTORY
