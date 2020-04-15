@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 01 05:53:12 ICT 2020
+#Wed Apr 15 16:11:36 ICT 2020
 17.baseType=DIRECTORY
 4.path=flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
 8.set=ASSET
@@ -8,7 +8,7 @@
 4.baseType=DIRECTORY
 14.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\1
 16.set=DEX
-count=19
+count=18
 6.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 13.path=flutter_assets/vm_snapshot_data
 6.baseType=DIRECTORY
@@ -39,7 +39,6 @@ count=19
 16.baseType=DIRECTORY
 14.set=DEX
 2.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-18.baseType=DIRECTORY
 1.path=flutter_assets/assets/font/Quicksand-Regular.ttf
 0.set=ASSET
 1.baseType=DIRECTORY
@@ -47,7 +46,6 @@ count=19
 5.set=ASSET
 9.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 16.path=classes.dex
-18.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 5.baseType=DIRECTORY
 11.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 8.path=flutter_assets/isolate_snapshot_data
@@ -58,11 +56,9 @@ count=19
 13.set=ASSET
 2.path=flutter_assets/AssetManifest.json
 9.baseType=DIRECTORY
-18.set=NATIVE_RESOURCE
 12.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 4.set=ASSET
 9.path=flutter_assets/assets/font/OpenSans-Regular.ttf
-18.path=lib/armeabi-v7a/libflutter.so
 4.base=D\:\\Project Flutter\\flutter_udemy_pengeluaran\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 11.path=flutter_assets/assets/images/waiting.png
 9.set=ASSET
