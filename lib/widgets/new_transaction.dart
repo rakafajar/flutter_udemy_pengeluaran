@@ -28,11 +28,7 @@ class _NewTransactionState extends State<NewTransaction> {
       return;
     }
 
-    widget.addTx(
-      _titleController.text,
-      enteredAmount,
-      _selectedDate
-    );
+    widget.addTx(_titleController.text, enteredAmount, _selectedDate);
 
     // untuk menghilangkan modalText ketika input data
     Navigator.of(context).pop();
@@ -82,12 +78,10 @@ class _NewTransactionState extends State<NewTransaction> {
               height: 70,
               child: Row(
                 children: <Widget>[
-                  Expanded(
-                    child: Text(
-                      _selectedDate == null
-                          ? "No Date"
-                          : "Picked Date ${DateFormat.yMd().format(_selectedDate)},",
-                    ),
+                  Text(
+                    _selectedDate == null
+                        ? "No Date"
+                        : "Picked Date : ${DateFormat.yMd().format(_selectedDate)},",
                   ),
                   FlatButton(
                     textColor: Theme.of(context).primaryColor,
@@ -96,6 +90,7 @@ class _NewTransactionState extends State<NewTransaction> {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                       ),
+                      textAlign: TextAlign.left,
                     ),
                     onPressed: _presentDatePicker,
                   )
